@@ -1,0 +1,112 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+} 
+  
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+  
+h1 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+  
+.analysis-section {
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.expense-table { 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} 
+  
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+} 
+  
+thead th { 
+    background-color: #f2f2f2; 
+    padding: 10px; 
+    text-align: left; 
+} 
+  
+tbody td { 
+    padding: 10px; 
+    border-top: 1px solid #ddd; 
+} 
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: darkred;
+}
+
+.total-amount { 
+    padding: 10px; 
+    text-align: right; 
+    background-color: #f2f2f2; 
+}
+.button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .yorum-button {
+      background-color: #f44336;
+      color: white;
+    }
+    
+    .analyze-button {
+      background-color: #4caf50;
+      color: white;
+    }
+    
+
+
